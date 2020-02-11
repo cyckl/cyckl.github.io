@@ -1,2 +1,0 @@
-# cyckl.github.io
-Portfolio
