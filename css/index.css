@@ -1,10 +1,52 @@
+/* Import Inter (font) */
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
 
-body {
-	margin:1em auto;
+/* Global settings */
+html { 
+	/* Font */
+	font-family: 'Inter', serif;
+	font-feature-settings: 'ss01', 'ss02', 'dlig', 'case', 'frac';
+	font-feature-settings: 'zero' 0;
+	/* Page formatting */
+	margin: 1em auto;
 	max-width: 40em;
-	padding: 0.5em;
-	font-family: Inter, serif;
+	/* Color */
+	color: #fff;
+	background-color: #111;
 }
-	
+
+hr {
+	color: #222;
+}
+
+footer {
+	padding: 0.5em;
+}
+
+/* Topbar */
+.navBox {
+	/* Flexbox */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.navLinkBox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	list-style: none;
+}
+
+.navLink {
+	text-decoration: none;
+	color: #fff;
+	padding: 0.5em;
+	font-weight: 600;
+}
+
+.navLink:hover {
+	background-color: #fff;
+	color: #111;
+}
