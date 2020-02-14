@@ -15,6 +15,10 @@ html {
 	background-color: #111;
 }
 
+img {
+	max-width: 40em;
+}
+
 hr {
 	color: #222;
 }
@@ -56,7 +60,7 @@ footer {
 	border-radius: 1em;
 }
 
-/* Navigaton bar */
+/* Horizontal links */
 .navBox {
 	/* Flexbox */
 	display: flex;
@@ -65,7 +69,7 @@ footer {
 	justify-content: space-between;
 }
 
-.navLinkBox {
+.linkBox {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
