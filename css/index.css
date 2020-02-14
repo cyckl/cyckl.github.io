@@ -23,6 +23,7 @@ footer {
 	padding: 0.5em;
 }
 
+/* Buttons */
 .button {
 	/* Padding */
 	padding-left: 1em;
@@ -36,31 +37,26 @@ footer {
 }
 
 .button:hover {
-	color: #09f;
-	background: linear-gradient(#535758, #242A31);
+	color: #e03;
+	background: linear-gradient(#333, #222);
 	font-weight: 600;
 	border-radius: 1em;
-	text-shadow: #09f;
+	text-shadow:0 0 0.5em #e03;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+	transition: color 250ms, text-shadow 500ms;
 }
 
 .button:active {
-	color: #09f;
-	background: linear-gradient(#535758, #242A31);
-	font-weight: 600;
-	border-radius: 1em;
-	text-shadow: #09f;
 	box-shadow:inset 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .buttonSel {
-	background: linear-gradient(#535758, #242A31);
+	background: linear-gradient(#333, #222);
 	box-shadow:inset 0px 2px 2px rgba(0, 0, 0, 0.5);
-	font-weight: 600;
 	border-radius: 1em;
 }
 
-/* Topbar */
+/* Navigaton bar */
 .navBox {
 	/* Flexbox */
 	display: flex;
@@ -74,23 +70,4 @@ footer {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	list-style: none;
-}
-
-.navLink {
-	text-decoration: none;
-	color: #fff;
-	padding: 0.5em;
-	font-weight: 600;
-}
-
-.navLinkActive {
-	color: #fff;
-	background-color: #cc241d;
-	font-weight: 800;
-}
-
-.navLink:hover {
-	background-color: #fff;
-	color: #111;
-	font-weight: 700;
 }
