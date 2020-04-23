@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+timezone: America/Los_Angeles
+
 title: Daniel Calderon (cyckl)
 markdown: kramdown
 
