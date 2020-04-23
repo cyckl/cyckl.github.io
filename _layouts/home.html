@@ -5,10 +5,10 @@ layout: default
 <ul class='blog'>
   {% for post in site.posts %}
     <li>
+      <p class='date'>{{ post.date }}</p>
       <h2>
         <a class='clean' href="{{ post.url }}">{{ post.title }}</a>
       </h2>
-      <p class='date'>{{ post.date }}</p>
       {{ post.excerpt }}
       <hr>
     </li>

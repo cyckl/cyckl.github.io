@@ -7,3 +7,6 @@ title: Posts
 permalink: /
 ---
 # Blog
+Hello, welcome to my portfolio / blog. Here you can find information about my projects and how I develop them. Report any issues to me [here.](https://github.com/cyckl/cyckl.github.io/issues) Please enjoy your visit!
+
+---

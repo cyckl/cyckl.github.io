@@ -1,7 +1,7 @@
 --- 
 # index.scss 
 --- 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import "gruvbox.css";
 
 $foreground: #fff;
@@ -11,11 +11,15 @@ $accent: #ff453a;
 
 html,
 body {
-    font-family: 'Cartograph CF', 'Roboto Mono', monospace;
+    font-family: 'Cartograph CF', 'Inconsolata', monospace;
     margin-left: 10vw;
     margin-right: 10vw;
     background-color: $background;
     color: $foreground;
+}
+
+p {
+    line-height: 1.5em;
 }
 
 hr {
@@ -40,7 +44,6 @@ a:hover {
 .date {
     color: $foregroundless;
 }
-
 
 /* Blog listing */
 ul.blog {
