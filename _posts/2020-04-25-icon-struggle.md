@@ -11,7 +11,7 @@ Now comes with an interesting method for ultimate system customization!
 
 ### Why?
 
-To write this blog I use a text editor called [VSCodium.](https://vscodium.com/){:target="_blank"} It's a free and libre build of VSCode without any Microsoft telemetry or other proprietary code. (I strongly suggest that you migrate if it fits your workflow) Now as a previous user of VSCode and VSCode Insiders, I was starting to hate this new icon that came with VSCodium.
+To write this blog I use a text editor called [VSCodium.](https://vscodium.com/){:target="_blank"} It's a libre build of VSCode without any Microsoft telemetry or other proprietary code. (I strongly suggest that you migrate if it fits your workflow) Now as a previous user of VSCode and VSCode Insiders, I was starting to hate this new icon that came with VSCodium.
 
 > ![VSCodium's logo](https://avatars0.githubusercontent.com/u/40338071?s=100)
 
@@ -48,12 +48,12 @@ Fortunately, once the icons are dropped in somehow, this new .dll becomes an ext
 
 ### Getting it done
 
-So to get started, I needed three things.
+So to get started, I needed three things:
 * [png to ico image converter](https://icoconvert.com/old.php){:target="_blank"}
 * A way to edit and add to .dll files
 * My icon
 
-Getting the first box checked off that list was trivial. I already had an icon at least 256px in size and with transparency. I just dropped the .png from Figma in, selected the Windows option, and it exported as .ico. The option I used exports in five sizes:
+Getting the first box checked off that list was trivial. I already had an icon at least 256px in size and with transparency. I just dropped the .png from Figma in, selected the Windows option, and it exported as .ico. The option I used embeds five sizes into the export:
 * 16 × 16
 * 24 × 24
 * 32 × 32
