@@ -6,12 +6,13 @@
 
 $foreground: #fff;
 $foregroundless: #888;
-$background: #111;
+$background: #000;
 $accent: #ff453a;
 
 html,
 body {
-    font-family: 'Cartograph CF', 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
+    //'Cartograph CF', 
     margin-left: 10vw;
     margin-right: 10vw;
     background-color: $background;
@@ -20,6 +21,7 @@ body {
 
 p {
     line-height: 1.5em;
+    
 }
 
 li {
