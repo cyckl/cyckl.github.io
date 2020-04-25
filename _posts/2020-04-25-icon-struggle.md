@@ -27,8 +27,8 @@ I took the SVG of the current logo, mixing in the outer box from the macOS app i
 
 > ![VSCode's current logo](https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg){:height="100px" width="100px"}
 
-![New icon but red](/assets/posts/2020-04-25-icon-struggle/vscode-red.svg){:height="100px" width="100px"}
-![New icon but blue](/assets/posts/2020-04-25-icon-struggle/vscode.svg){:height="100px" width="100px"}
+![New icon but red](https://raw.githubusercontent.com/cyckl/cyckl.github.io/master/assets/posts/2020-04-25-icon-struggle/vscode-red.svg){:height="100px" width="100px"}
+![New icon but blue](https://raw.githubusercontent.com/cyckl/cyckl.github.io/master/assets/posts/2020-04-25-icon-struggle/vscode.svg){:height="100px" width="100px"}
 
 *Original and the two new variants*
 
