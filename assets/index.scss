@@ -81,6 +81,15 @@ nav>ul>li>a {
     text-decoration: none;
 }
 
+/* Mobile responsive */
+@media only screen and (max-width: 768px) {
+    html,
+    body {
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+}
+
 @media (prefers-color-scheme: light) {
     $foreground: #000;
     $foregroundless: #444;
