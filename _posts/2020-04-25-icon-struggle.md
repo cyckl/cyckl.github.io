@@ -49,7 +49,7 @@ Fortunately, once the icons are dropped in somehow, this new .dll becomes an ext
 ### Getting it done
 
 So to get started, I needed three things.
-* [.png to .ico image converter](https://icoconvert.com/old.php){:target="_blank"}
+* [png to ico image converter](https://icoconvert.com/old.php){:target="_blank"}
 * A way to edit and add to .dll files
 * My icon
 
@@ -60,7 +60,7 @@ Getting the first box checked off that list was trivial. I already had an icon a
 * 48 × 48
 * 256 × 256
 
-This should do just fine for most use-cases, but if more are needed the custom option is also there. Once exported, I downloaded [Resource Hacker](http://www.angusj.com/resourcehacker){:target="_blank"}, which is a well featured program for our purposes. All I had to do was hit new, drop in the ico, and save it to a .dll file. (I had to select .dll in the save as dialog or else it saves as another format)
+This should do just fine for most use-cases, but if more are needed the custom option is also there. Once exported, I downloaded [Resource Hacker](https://www.angusj.com/resourcehacker){:target="_blank"}, which is a well featured program for our purposes. All I had to do was hit new, drop in the ico, and save it to a .dll file. (I had to select .dll in the save as dialog or else it saves as another format)
 
 Now that I had this .dll, I added some more icons and now have a portable Windows icon library!
 
