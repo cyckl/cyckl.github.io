@@ -64,7 +64,7 @@ This should do just fine for most use-cases, but if more are needed the custom o
 
 Now that I had this .dll, I added some more icons and now have a portable Windows icon library!
 
-![Icon library](/assets/posts/2020-04-24-icon-struggle/shortcut-properties.png)
+![Icon library](/assets/posts/2020-04-25-icon-struggle/shortcut-properties.png)
 
 ---
 
