@@ -49,7 +49,7 @@ Fortunately, once the icons are dropped in somehow, this new .dll becomes an ext
 ### Getting it done
 
 So to get started, I needed three things.
-* [.png to .ico image converter]((https://icoconvert.com/old.php){:target="_blank"})
+* [.png to .ico image converter](https://icoconvert.com/old.php){:target="_blank"}
 * A way to edit and add to .dll files
 * My icon
 
