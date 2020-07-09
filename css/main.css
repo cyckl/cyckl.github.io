@@ -1,18 +1,5 @@
 @import url('https://rsms.me/inter/inter.css');
 
-@media (prefers-color-scheme: dark) {
-    html,
-    body {
-        background-color: #000;
-        color: #fff;
-    }
-
-    a.button {
-        background-color: #fff;
-        color: #000;
-    }
-}
-
 html {
     font-family: "Inter", sans-serif;
 }
@@ -139,4 +126,17 @@ div.footer {
 div.footer > *{
     margin-right: 20vw;
     margin-left: 20vw;
+}
+
+@media (prefers-color-scheme: dark) {
+    html,
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+
+    a.button {
+        background-color: #fff;
+        color: #000;
+    }
 }
