@@ -1,23 +1,15 @@
-html {
-    font-family: "Inter", sans-serif;
-}
+html { font-family: "Inter", sans-serif; }
 
-body {
-    margin: 0;
-}
+body { margin: 0; }
 
-h1 {
-    font-size: 3em;
-}
+h1 { font-size: 3em; }
 
 p, a, li {
     font-weight: 500;
     margin: 0.25em 0;
 }
 
-p.subText {
-    color: #555;
-}
+p.subText { color: #555; }
 
 /* Jumbotron */
 a.blm {
@@ -83,9 +75,7 @@ a.navButton {
     align-self: flex-start;
 }
 
-div.navLinks > *:hover {
-    color: #ffffff99;
-}
+div.navLinks > *:hover { color: #ffffff99; }
 
 /* Jumbotron > Content */
 div.jumbotronContent {
@@ -139,13 +129,9 @@ div.card {
     margin: 1em 1em;
 }
 
-img.cardPhoto {
-    width: 100%;
-}
+img.cardPhoto { width: 100%; }
 
-div.cardText {
-    padding: 1em;
-}
+div.cardText { padding: 1em; }
 
 /* Footer */
 footer {
@@ -175,7 +161,5 @@ footer > div {
         color: #000;
     }
 
-    p.subText {
-    color: #aaa;
-    }
+    p.subText { color: #aaa; }
 }
