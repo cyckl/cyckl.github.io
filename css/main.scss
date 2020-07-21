@@ -1,4 +1,4 @@
-html, body { font-family: "Inter", sans-serif; }
+:root { font-family: "Inter", sans-serif; }
 
 body { margin: 0; }
 
@@ -12,18 +12,17 @@ p, a, li {
 }
 
 .blm {
-        padding: 0.1em;
-        background-color: #000;
-        color: #fff;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        text-decoration: none;
-        line-height: 3em;
-        &:hover {
-          text-decoration: underline;
-          color: #eee;
+    text-decoration: none;
+    padding: 0.75em;
+    background: #000;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    &:hover {
+        text-decoration: underline;
+        background: #333;
     }
 }
 
@@ -71,12 +70,16 @@ div.card {
     flex-direction: column;
     max-width: 20em;
     flex-grow: 2;
+    border: solid 2pt #00000050;
     border-radius: 0.5em;
     box-shadow: 0 0 1em grey;
     margin: 1em 1em;
 }
 
-img.cardPhoto { width: 100%; }
+img.cardPhoto { 
+    width: 100%;
+    border-radius: 0.4em 0.4em 0 0;
+}
 
 div.cardText { padding: 1em; }
 
@@ -97,7 +100,7 @@ footer {
 
 @media (prefers-color-scheme: dark) {
     html, body {
-        background-color: #000;
+        background-color: #111;
         color: #fff;
     }
 
@@ -107,4 +110,13 @@ footer {
     }
 
     p.subText { color: #aaa; }
+
+    div.card {
+        box-shadow: 0 0 1em black;
+        border: solid 2pt #ffffff10;
+    }
+
+    div.sys9wm {
+        background-image: url("../images/sys9wm-dark.svg");
+    }
 }
