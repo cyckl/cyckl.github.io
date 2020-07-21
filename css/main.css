@@ -22,15 +22,32 @@ p.subText {
 }
 
 /* Jumbotron */
+div.blm {
+    padding: 0.1em;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+div.blm > * {
+    text-decoration: none;
+    color: #fff;
+    line-height: 3em;
+}
+
+div.blm > *:hover {
+    text-decoration: underline;
+    color: #eee;
+}
+
 header.jumbotron {
-    height: 95vh;
+    height: 90vh;
     /* height: 100vh; */
     display: flex;
     flex-direction: column;
-    background-image: url("../images/bg.png");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: linear-gradient(45deg, #ff3344, #f75827);
     color: #fff;
 }
 
