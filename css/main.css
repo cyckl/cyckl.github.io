@@ -1,41 +1,30 @@
-html {
-    font-family: "Inter", sans-serif;
-}
+html { font-family: "Inter", sans-serif; }
 
-body {
-    margin: 0;
-}
+body { margin: 0; }
 
-h1 {
-    font-size: 3em;
-}
+h1 { font-size: 3em; }
 
 p, a, li {
     font-weight: 500;
     margin: 0.25em 0;
 }
 
-p.subText {
-    color: #555;
-}
+p.subText { color: #555; }
 
 /* Jumbotron */
-div.blm {
+a.blm {
     padding: 0.1em;
     background-color: #000;
     color: #fff;
     display: flex;
     justify-content: center;
     align-content: center;
-}
-
-div.blm > * {
     text-decoration: none;
     color: #fff;
     line-height: 3em;
 }
 
-div.blm > *:hover {
+a.blm:hover {
     text-decoration: underline;
     color: #eee;
 }
@@ -86,9 +75,7 @@ a.navButton {
     align-self: flex-start;
 }
 
-div.navLinks > *:hover {
-    color: #ffffff99;
-}
+div.navLinks > *:hover { color: #ffffff99; }
 
 /* Jumbotron > Content */
 div.jumbotronContent {
@@ -142,13 +129,9 @@ div.card {
     margin: 1em 1em;
 }
 
-img.cardPhoto {
-    width: 100%;
-}
+img.cardPhoto { width: 100%; }
 
-div.cardText {
-    padding: 1em;
-}
+div.cardText { padding: 1em; }
 
 /* Footer */
 footer {
@@ -178,7 +161,5 @@ footer > div {
         color: #000;
     }
 
-    p.subText {
-    color: #aaa;
-    }
+    p.subText { color: #aaa; }
 }
