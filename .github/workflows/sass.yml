@@ -24,8 +24,8 @@ jobs:
 
       - name: Add and Commit changes to master branch
         run: |
-          git config --local user.email 'action@github.com'
-          git config --local user.name 'GitHub Action'
+          git config --local user.email 'd_nni3l@protonmail.ch'
+          git config --local user.name 'Daniel C.'
           git add css/*
           git commit -m 'Compiled CSS files'
 

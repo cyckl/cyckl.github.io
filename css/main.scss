@@ -24,6 +24,15 @@ h3 {
     }
 }
 
+h4 {
+    margin: 0.25em 0;
+    margin-top: 1em;
+    a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
 a {
     color: #f34;
     &:hover {
@@ -59,10 +68,10 @@ p, a, li {
 }
 
 header {
-    height: 20em;
+    min-height: 20em;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(45deg, #f34, #f75827);
+    background-image: linear-gradient(45deg, #f34, #f63);
     color: #fff;
     padding: 2em 10vw;
     /* Jumbotron Content */
@@ -82,7 +91,7 @@ header {
 
 /* Jumbotron */
 .jumbotron {
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .navbar {
@@ -133,7 +142,7 @@ div.cardText { padding: 1em; }
 
 /* Footer */
 footer {
-    height: 15vh;
+    min-height: 15vh;
     display: flex;
     flex-direction: column;
     background-color: #222;
