@@ -98,12 +98,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .navLink {
-        text-decoration: none;
-        color: #fff;
-        margin-left: 10pt;
-        &:hover {
-            opacity: 0.6;
+    .navLinks {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        .navLink {
+            text-decoration: none;
+            color: #fff;
+            margin-left: 10pt;
+            &:hover {
+                opacity: 0.6;
+            }
         }
     }
 }
